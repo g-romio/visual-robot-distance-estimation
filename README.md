@@ -48,11 +48,11 @@ The models were compared using:
 
 The MLP achieved the best predictive performance across all evaluation metrics, suggesting that nonlinear regression models can effectively exploit DINOv2 visual embeddings for continuous distance estimation.
 
-## Technologies
+## Dependencies
 
-- Python
+- Python 3.11
 - PyTorch
-- DINOv2
+- Transformers (DINOv2)
 - Gymnasium Robotics (Fetch)
 - Scikit-learn
 - XGBoost
