@@ -13,6 +13,18 @@ Instead of using handcrafted image features or end-to-end deep learning, the pro
 3. Train regression models on the embedding vectors.
 4. Predict the continuous robot-object distance.
 
+<p align="center">
+  <img
+    src="images/overview.png"
+    alt="Robot-object distance estimation in the Fetch environment"
+    width="700"
+  >
+</p>
+
+<p align="center">
+<i>Overview of the Fetch environment. The regression target is the 3D Euclidean distance between the robot end-effector and the manipulated object.</i>
+</p>
+
 ## Pipeline
 
 Environment → Image → DINOv2 → Embeddings → Regression Model → Distance Prediction
