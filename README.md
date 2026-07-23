@@ -1,15 +1,15 @@
 # Robot Object Distance Estimation from Vision
 
-Estimate the distance between a robotic manipulator and an object using **DINOv2 visual embeddings** and **classical machine learning regression models**.
+Estimate the **3D Euclidean distance** between a robotic manipulator and an object using **DINOv2 visual embeddings** and **classical machine learning regression models**.
 
-This project evaluates whether high-level visual embeddings extracted from a foundation model can accurately predict robot-object distance in Gymnasium Fetch environments.
+This project evaluates whether visual embeddings extracted from DINOv2 can be used to estimate the **3D Euclidean distance** between a robot end-effector and an object from a **single RGB image**. The experiments are conducted in Gymnasium Fetch environments using several regression models.
 
 ## Overview
 
 Instead of using handcrafted image features or end-to-end deep learning, the proposed pipeline consists of:
 
-1. Capture an RGB image from the environment.
-2. Extract visual embeddings using **DINOv2**.
+1. Render a 2D RGB image from the environment.
+2. Extract visual embeddings using DINOv2.
 3. Train regression models on the embedding vectors.
 4. Predict the continuous robot-object distance.
 
