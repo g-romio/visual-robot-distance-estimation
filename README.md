@@ -42,7 +42,7 @@ The models were compared using:
   <img
     src="images/regression_model_comparison.png"
     alt="Actual vs Predicted comparison between regression models"
-    width="640"
+    width="1000"
   >
 </p>
 
