@@ -46,7 +46,17 @@ The models were compared using:
 | Gradient Boosting | 0.0439 | 0.3159 | 0.0556 | 0.5290 |
 | LightGBM | 0.0448 | 0.3267 | 0.0565 | 0.5149 |
 
-The MLP achieved the best predictive performance across all evaluation metrics, suggesting that nonlinear regression models can effectively exploit DINOv2 visual embeddings for continuous distance estimation.
+The MLP achieved the best predictive performance across all evaluation metrics.
+
+## Regression Results
+
+<p align="center">
+  <img
+    src="images/regression_model_comparison.png"
+    alt="Actual vs Predicted comparison between regression models"
+    width="1000"
+  >
+</p>
 
 ## Dependencies
 
