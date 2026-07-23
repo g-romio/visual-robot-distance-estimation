@@ -38,6 +38,14 @@ The models were compared using:
 
 ## Results
 
+<p align="center">
+  <img
+    src="images/regression_model_comparison.png"
+    alt="Actual vs Predicted comparison between regression models"
+    width="1000"
+  >
+</p>
+
 | Model | MAE | MAPE | RMSE | R² |
 |-------|-------:|--------:|--------:|------:|
 | **MLP** | **0.0332** | **0.2243** | **0.0426** | **0.7239** |
@@ -47,16 +55,6 @@ The models were compared using:
 | LightGBM | 0.0448 | 0.3267 | 0.0565 | 0.5149 |
 
 The MLP achieved the best predictive performance across all evaluation metrics.
-
-## Regression Results
-
-<p align="center">
-  <img
-    src="images/regression_model_comparison.png"
-    alt="Actual vs Predicted comparison between regression models"
-    width="1000"
-  >
-</p>
 
 ## Dependencies
 
