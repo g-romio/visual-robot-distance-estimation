@@ -22,7 +22,7 @@ Instead of using handcrafted image features or end-to-end deep learning, the pro
 </p>
 
 <p align="center">
-<i>Overview of the Fetch environment. The regression target is the 3D Euclidean distance between the robot end-effector and the manipulated object.</i>
+<i>Overview of the Fetch environment. The regression target is the 3D Euclidean distance between the robot end-effector and the target object.</i>
 </p>
 
 ## Pipeline
