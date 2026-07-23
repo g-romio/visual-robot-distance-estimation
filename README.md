@@ -74,9 +74,8 @@ The MLP achieved the best predictive performance across all evaluation metrics, 
 
 - Evaluate other foundation models (CLIP, SigLIP, DINOv3)
 - Test additional robotic manipulation environments
-- Compare with end-to-end CNN regression
 - Explore uncertainty estimation
-- Integrate with reinforcement learning pipelines
+- Investigate the use of the predicted distance for reward shaping in reinforcement learning
 
 ## Requirements
 
