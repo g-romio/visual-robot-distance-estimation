@@ -88,6 +88,8 @@ The MLP achieved the best predictive performance across all evaluation metrics.
 ├── README.md
 ├── requirements.txt
 └── images/
+└── visualizations/
+  └── embedding_visualization.ipynb
 ```
 
 ## Future Work
