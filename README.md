@@ -38,7 +38,7 @@ The models were compared using:
 
 ## Results
 
-| Model | MAE ↓ | MAPE ↓ | RMSE ↓ | R² ↑ |
+| Model | MAE | MAPE | RMSE | R² |
 |-------|-------:|--------:|--------:|------:|
 | **MLP** | **0.0332** | **0.2243** | **0.0426** | **0.7239** |
 | XGBoost | 0.0388 | 0.2735 | 0.0492 | 0.6321 |
