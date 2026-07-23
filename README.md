@@ -17,7 +17,7 @@ Instead of using handcrafted image features or end-to-end deep learning, the pro
   <img
     src="images/overview.png"
     alt="Robot-object distance estimation in the Fetch environment"
-    width="700"
+    width="320"
   >
 </p>
 
