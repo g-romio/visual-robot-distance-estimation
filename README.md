@@ -4,8 +4,6 @@ Estimate the distance between a robotic manipulator and an object using **DINOv2
 
 This project evaluates whether high-level visual embeddings extracted from a foundation model can accurately predict robot-object distance in Gymnasium Fetch environments.
 
----
-
 ## Overview
 
 Instead of using handcrafted image features or end-to-end deep learning, the proposed pipeline consists of:
@@ -19,8 +17,6 @@ Instead of using handcrafted image features or end-to-end deep learning, the pro
 
 Environment → Image → DINOv2 → Embeddings → Regression Model → Distance Prediction
 
----
-
 ## Regression Models
 
 The following regressors were evaluated:
@@ -31,8 +27,6 @@ The following regressors were evaluated:
 - LightGBM
 - Multi-Layer Perceptron (MLP)
 
----
-
 ## Evaluation Metrics
 
 The models were compared using:
@@ -41,8 +35,6 @@ The models were compared using:
 - Mean Absolute Percentage Error (MAPE)
 - Root Mean Squared Error (RMSE)
 - Coefficient of Determination (R²)
-
----
 
 ## Results
 
@@ -56,8 +48,6 @@ The models were compared using:
 
 The MLP achieved the best predictive performance across all evaluation metrics, suggesting that nonlinear regression models can effectively exploit DINOv2 visual embeddings for continuous distance estimation.
 
----
-
 ## Technologies
 
 - Python
@@ -70,8 +60,6 @@ The MLP achieved the best predictive performance across all evaluation metrics, 
 - Matplotlib
 - NumPy
 
----
-
 ## Repository
 
 ```
@@ -82,8 +70,6 @@ The MLP achieved the best predictive performance across all evaluation metrics, 
 └── images/
 ```
 
----
-
 ## Future Work
 
 - Evaluate other foundation models (CLIP, SigLIP, DINOv3)
@@ -91,8 +77,6 @@ The MLP achieved the best predictive performance across all evaluation metrics, 
 - Compare with end-to-end CNN regression
 - Explore uncertainty estimation
 - Integrate with reinforcement learning pipelines
-
----
 
 ## Requirements
 
