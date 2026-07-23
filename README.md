@@ -72,9 +72,9 @@ The MLP achieved the best predictive performance across all evaluation metrics, 
 
 ## Future Work
 
+- Improve distance estimation accuracy through model optimization
 - Evaluate other foundation models (CLIP, SigLIP, DINOv3)
 - Test additional robotic manipulation environments
-- Explore uncertainty estimation
 - Investigate the use of the predicted distance for reward shaping in reinforcement learning
 
 ## Requirements
